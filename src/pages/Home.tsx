@@ -54,7 +54,7 @@ export function Home() {
         // eslint-disable-next-line react-native/no-inline-styles
         style={styles.container}>
 
-        <Text style={styles.title}>Welcome, Ana</Text>
+        <Text style={styles.title}>Hey there! </Text>
         <Text style={styles.gretting}>{gretting}</Text>
 
         <TextInput
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#121015',
     paddingHorizontal: 20,
-    paddingVertical: 70,
+    paddingVertical: 30,
   },
   title: {
     color: '#fff',
